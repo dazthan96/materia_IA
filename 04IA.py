@@ -1,6 +1,8 @@
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import confusion_matrix, accuracy_score
+
 data = load_iris()
 X = data.data
 y = data.target
@@ -15,3 +17,5 @@ model.fit(X_train, y_train)
 y_pred = model.predict(x_test)
 print(y_pred)
 print(y_test)
+print(confusion_matrix(y_test, y_pred))
+print(accuracy_score(y_test, y_pred))
