@@ -1,0 +1,2 @@
+tablero = ["vacio"]
+print(tablero)
