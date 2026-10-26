@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-archivo = "C:/Users/Beto/Documents/avance 2026-II/IA/02_parte/data/digitos/1/img_0.jpg"
+archivo = "E:/facu/07semestre/materia_IA/02_parte/clase02/data/digitos/0/img_1.jpg"
 imagen = cv2.imread(archivo)
 print(imagen.shape)
 canal1 = imagen[:,:,0]

@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 from sklearn.neural_network import MLPClassifier
-ruta_0= "C:/Users/Beto/Documents/avance 2026-II/IA/02_parte/data/digitos/0/"
+ruta_0= "E:/facu/07semestre/materia_IA/02_parte/clase02/data/digitos/0/"
 archivos = os.listdir(ruta_0)
 datos_0 = []
 #print(archivos)
@@ -22,7 +22,7 @@ for i in range(len(y_0)//2):
     y_0[i] = 0
 #<---------------------------------------------------------------------------->
 
-ruta_1 = "C:/Users/Beto/Documents/avance 2026-II/IA/02_parte/data/digitos/1/"
+ruta_1 = "E:/facu/07semestre/materia_IA/02_parte/clase02/data/digitos/1/"
 archivos = os.listdir(ruta_1)
 datos_1 = []
 #print(archivos)

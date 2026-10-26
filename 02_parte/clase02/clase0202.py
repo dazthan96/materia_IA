@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
-ruta = "C:/Users/Beto/Documents/avance 2026-II/IA/02_parte/data/digitos/1/"
+ruta = "E:/facu/07semestre/materia_IA/02_parte/clase02/data/digitos/1"
 archivos = os.listdir(ruta)
 datos = []
 #print(archivos)
